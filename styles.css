@@ -69,3 +69,19 @@ a{
     70%{background-color: #86C232}
     100%{background-color: #379683;}
 }
+
+@media (max-width: 768px){
+    .all{
+        font-size: 7px;
+        padding: 2%;
+    }
+
+    .h1Style{
+        font-size: 1rem;
+    }
+
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+}
