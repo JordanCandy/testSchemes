@@ -49,3 +49,14 @@ h1{
 .c5{
     background-color: #282828;
 }
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
+    .all{
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+    }
+}
