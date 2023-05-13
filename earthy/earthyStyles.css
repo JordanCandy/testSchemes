@@ -68,3 +68,10 @@ p{
         margin-bottom: 10%;
     }
 }
+
+
+@media (min-width: 1440px){
+    body{
+        background-size: 2560px;
+    }
+}

@@ -1,6 +1,6 @@
 body{
     background-image:  url("images/pexels-photo-1086587.jpeg");
-    background-size: cover;
+    background-size: 1300px 900px;
     background-repeat: no-repeat;
 }
 .complete{
@@ -90,7 +90,7 @@ h1{
         width: 60px;
         height: 10px;
         padding: 1%;
-        margin: 0 3px 0 0;
+        margin: 15% 2% 0 0;
         font-size: 8px;
     }
 
@@ -113,5 +113,11 @@ h1{
 
     .h1{
         color: white;
+    }
+}
+
+@media (min-width: 1440px){
+    body{
+        background-size: 2560px;
     }
 }
