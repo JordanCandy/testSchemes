@@ -79,7 +79,7 @@ body{
  }
 
  .all{
-    margin-top: 3%;
+    margin-top: 8%;
     margin-bottom: 3%;
     display: flex;
     font-size: 8px;
@@ -87,4 +87,10 @@ body{
     justify-content: center;
     align-items: center;
  }
+}
+
+@media (min-width: 1440px){
+    body{
+        background-size: 2560px ;
+    }
 }
